@@ -840,8 +840,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   .about_us {
     font-size: 29px;
   }
-  #intro h1 {
-    font-size: 29px !important;
+  #intro h2 {
+    font-size: 18px !important;
   }
 }
 .bg-receiver {
@@ -947,7 +947,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro {
   width: 100%;
   height: 100vh;
-  background: url(image/3.jpg) top center;
+  background: url(assets/img/wrapit-min.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -955,7 +955,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro_about {
   width: 100%;
   height: 100vh;
-  background: url(image/about.jpg) top center;
+  background: url(assets/img/about.jpg) top center;
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -996,16 +996,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 0 15px;
 }
 
-#intro h1,
+#intro h2,
 #intro_about h1 {
   color: #fff;
-  font-family: "Raleway", sans-serif;
-  font-size: 56px;
+  font-family: "Poppins", sans-serif;
+  font-size: 29px;
   font-weight: 600;
   text-transform: uppercase;
 }
 
-#intro h1 span {
+#intro h2 span {
   color: #f82249;
 }
 
@@ -1389,7 +1389,7 @@ section.contact-w3ls button.btn.btn-primary:hover {
 #call-to-action {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     /*url(../img/call-to-action-bg.jpg) fixed center center;*/
-      url(image/services.jpg) fixed center center;
+      url(../img/services.jpg) fixed center center;
   background-size: cover;
   padding: 80px 0;
 }
