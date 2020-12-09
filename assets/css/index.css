@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 :root {
   --mainBlue: #40acf1;
   --transparentBlue: rgba(64, 172, 241, 0.7);
@@ -9,7 +10,7 @@
 body {
   background: #fff;
   color: black;
-  font-family: Trebuchet MS;
+  font-family: "Poppins", sans-serif;
 }
 a {
   color: black;
