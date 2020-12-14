@@ -12,6 +12,12 @@ body {
   color: black;
   font-family: "Poppins", sans-serif;
 }
+p {
+  color: #ffffff;
+}
+#cards p {
+    color: black;
+}
 a {
   color: black;
 }
@@ -300,12 +306,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   position: relative;
 }
+
+#route-image {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(8, 25, 219, 0.7), rgba(0, 0, 0, 0.7)),url("../img/routes2.png");
+  background-size: cover;
+  position: relative;
+}
+
+#about-image {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(8, 25, 219, 0.7), rgba(0, 0, 0, 0.7)),url("../img/about.jpg");
+  background-size: cover;
+  position: relative;
+}
 @media (min-width: 1024px) {
-  #bck-image {
+  #bck-image, #route-image, #about-image {
     background-attachment: fixed;
   }
 }
-#bck-image:before {
+
+#bck-image:before, #route-image:before, #about-image:before {
   content: "";
   /* background: rgba(0, 0, 0, 0.6); */
   position: absolute;
@@ -317,7 +340,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*.navbar {*/
 /*    background: rgba(245, 232, 232, 0.212);*/
 /*}*/
-#bck-image .image-container {
+#bck-image .image-container, #route-image .image-container,  #about-image .image-container {
   position: absolute;
   bottom: 0;
   top: 0;
@@ -329,7 +352,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   flex-direction: column;
   text-align: center;
 }
-#bck-image h1 {
+#bck-image h1,  #route-image h1, #about-image h1 {
   margin: 30px 0 10px 0;
   font-size: 48px;
   line-height: 56px;
@@ -467,7 +490,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #footer .footer-style {
   padding: 60px 0 30px 0;
-  background: #b3d7ff;
+  background: #343a40;
 }
 #footer .footer-style .footer-contact {
   margin-bottom: 30px;
@@ -479,7 +502,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #37517e;
+  color: #343a40;
 }
 #footer .footer-style .footer-contact p {
   font-size: 19px;
@@ -499,7 +522,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-style .footer-links {
   margin-bottom: 30px;
 }
-
 #footer .footer-style .footer-links ul {
   list-style: none;
   padding: 0;
@@ -524,7 +546,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-style .footer-links ul a {
-  color: #777777;
+  font-size: 17px;
+  color: #ffffff;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1621,12 +1644,12 @@ section.contact-w3ls button.btn.btn-primary:hover {
   margin: 1rem auto;
 }
 .skills-icon {
-  font-size: 2rem;
-  color: var(--mainYellow);
-  background: var(--mainGrey);
+  font-size: 6rem;
+  color: #00a3ec;
+  background: none;
 }
 .skills-icon:hover {
-  color: var(--mainYellow);
+  color: lightblue;
 }
 
 

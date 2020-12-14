@@ -47,14 +47,7 @@
     closeColor: '#fff'
   });
   // Gallery carousel (uses the Owl Carousel library)
-  $(".gallery-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    center:true,
-    responsive: { 0: { items: 1 }, 768: { items: 3 }, 992: { items: 4 }, 1200: {items: 5}
-    }
-  });
+
 
   // Initiate superfish on nav menu
   $(".nav-menu").superfish({
@@ -138,7 +131,18 @@
         }
     });
 
-    // Porfolio filter
+    // aos
+    // Init AOS
+    function aos_init() {
+      AOS.init({
+        duration: 1000,
+        easing: "ease-in-out-back",
+        once: true
+      });
+    }
+    $(window).on('load', function() {
+      aos_init();
+    });
 
   // Initiate venobox (lightbox feature used in portofilo)
 
@@ -147,4 +151,4 @@
     delay: 10,
     time: 1000
   });
-})(jQuery);
+})(jQuery)

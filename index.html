@@ -8,8 +8,12 @@
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
     <!-- Back to top icon found here -->
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
-    <link href="assets/lib/animate/animate.min.css" rel="stylesheet" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link href="assets/lib/venobox/venobox.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link
       href="assets/lib/owlcarousel/assets/owl.carousel.min.css"
       rel="stylesheet"
@@ -34,12 +38,13 @@
         </div>
         <nav id="nav-menu-container">
           <ul class="nav-menu">
-            <li class="active"><a href="#intro">Home</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
             <li><a href="works.html">How it works</a></li>
             <li><a href="services.html">Services</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact Us</a></li>
             <li class="contact-us"><a href="login.html">Login</a></li>
+            <!-- Can only be viewed when user is logged in. -->
             <li class="contact-us"><a href="#">Dashboard</a></li>
           </ul>
         </nav>
@@ -49,13 +54,14 @@
 
     <section id="bck-image">
       <div class="image-container">
-        <h1 class="title-heading d-inline-block p-2 lead">Kwauri.</h1>
-        <h2 class="lead subtitle-heading">
+        <h1 class="title-heading d-inline-block p-2 lead animate__animated animate__bounceInDown">KwauRi.</h1>
+        <h2 class="lead subtitle-heading animate__animated animate__swing">
           On demand package delivery, at your finger tip.
         </h2>
         <ul class="nav-menu">
-          <a href="#about" class="btn btn-info btn-get-started"><i class="fas fa-gift"></i> Send a parcel</a>
-          <a href="#about" class="btn-get-started"><i class="fas fa-truck"></i> Become an agent</a>
+          <a href="login.html" class="btn btn-info btn-get-started"><i class="fas fa-gift"></i> Send a parcel</a>
+          <a href="login.html" class="btn-get-started"><i class="fas fa-truck"></i> Become an agent</a>
+          <a href="routes.html" class="btn-get-started"><i class="fas fa-road"></i> Active Routes.</a>
         </ul>
       </div>
     </section>
@@ -79,54 +85,54 @@
             <!-- single skill -->
             <div class="col-sm-6 col-lg-3 text-center my-3">
               <a href="" class="skills-icon p-2 rounded-circle">
-                <i class="fas fa-handshake fa-fw"></i>
+                <i class="fas fa-users fa-fw"></i>
               </a>
               <h6 class="text-uppercase font-weight-bold my-3">
-                Lorem ipsum.
+                Sender.
               </h6>
               <div class="skills-underline"></div>
               <p class="lead">
-                Lorem ipsum dolor sit amet, consectetur adipisicing.
+                Login to the website.
               </p>
             </div>
             <!-- end of single skill -->
             <!-- single skill -->
             <div class="col-sm-6 col-lg-3 text-center my-3">
               <a href="" class="skills-icon p-2 rounded-circle">
-                <i class="fas fa-shopping-cart fa-fw"></i>
+                <i class="fas fa-box fa-fw"></i>
               </a>
               <h6 class="text-uppercase font-weight-bold my-3">
-                Lorem ipsum.
+                Parcel.
               </h6>
               <div class="skills-underline"></div>
               <p class="lead">
-                Lorem ipsum dolor sit amet, consectetur adipisicing.
+                Enter the details of your parcel.
               </p>
             </div>
             <!-- end of single skill -->
             <!-- single skill -->
             <div class="col-sm-6 col-lg-3 text-center my-3">
               <a href="" class="skills-icon p-2 rounded-circle">
-                <i class="fas fa-thumbs-up fa-fw"></i>
+                <i class="fas fa-street-view fa-fw"></i>
               </a>
               <h6 class="text-uppercase font-weight-bold my-3">
-                Lorem ipsum.
+                Location.
               </h6>
               <div class="skills-underline"></div>
               <p class="lead">
-                Lorem ipsum dolor sit amet, consectetur adipisicing.
+                Choose a pick up and drop off point.
               </p>
             </div>
             <div class="col-sm-6 col-lg-3 text-center my-3">
               <a href="" class="skills-icon p-2 rounded-circle">
-                <i class="fas fa-thumbs-up fa-fw"></i>
+                <i class="fas fa-truck-moving fa-fw"></i>
               </a>
               <h6 class="text-uppercase font-weight-bold my-3">
-                Lorem ipsum.
+                Transporter.
               </h6>
               <div class="skills-underline"></div>
               <p class="lead">
-                Lorem ipsum dolor sit amet, consectetur adipisicing.
+                We pick up and deliver.
               </p>
             </div>
           </div>
@@ -137,7 +143,7 @@
 
     </div>
     <!-- ======= Cards Start ======= -->
-
+    <section id="cards">
       <div class="container mt-2">
         <div class="row mt-5">
           <div
@@ -147,38 +153,35 @@
           </div>
         </div>
         <div class="row">
-            <div class="col-md-4" style="padding: 2%;">
+            <div class="col-md-4" style="padding: 2%;" data-aos="fade-left" data-aos-delay="100">
+              <h5 class="card-title text-center">Business.</h5>
               <div class="card">
                 <img src="assets/img/deliveries.svg"  style="width:100%; height:270px;" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Lorem ipsum dolor.</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing..</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">We offer deliveries for businesses at your request. For more please contact us.</p>
+                  <a href="contact.html" class="btn btn-primary">Contact</a>
                 </div>
-
             </div>
-            <div class="col-md-4" style="padding: 2%;">
+            <div class="col-md-4" style="padding: 2%;" data-aos="fade-down" data-aos-delay="200">
+              <h5 class="card-title text-center">Enterprise.</h5>
               <div class="card">
                 <img src="assets/img/business.svg"  style="width:100%; height:270px;" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Lorem ipsum dolor.</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing..</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">We also offer our dervices on a larger scale.</p>
+                  <a href="contact.html" class="btn btn-primary">Contact</a>
                 </div>
-
             </div>
-            <div class="col-md-4" style="padding: 2%;">
+            <div class="col-md-4" style="padding: 2%;" data-aos="fade-left" data-aos-delay="300">
+              <h5 class="card-title text-center">Individual.</h5>
               <div class="card">
                 <img src="assets/img/one.svg" style="width:100%; height:270px;" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title">Lorem ipsum dolor.</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                  <p class="card-text">Just loggin in and signing up your good to go.</p>
+                  <a href="contact.html" class="btn btn-primary">Contact</a>
                 </div>
-
             </div>
           </div>
       </div>
@@ -189,13 +192,13 @@
       <div class="container wow fadeIn">
         <div class="row">
           <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="lead">Lorem ipsum.</h3>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic dolorem cupiditate saepe nobis corporis harum sed architecto quibusdam quae dicta.
+            <h3 class="lead" data-aos="fade-up">Interested in joining?</h3>
+            <p class="lead"  data-aos="fade-right" data-aos-delay="300">
+              To get the full experoence of what we offer please login or register now.
             </p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#footer">Contact us now</a>
+            <a class="cta-btn align-middle" href="#footer">Sign up now</a>
           </div>
         </div>
       </div>
@@ -253,7 +256,7 @@
             </div>
             <div class="col-lg-4 col-md-6 footer-links">
               <h4 class="text-center skills">Our Links</h4>
-              <p class="lead">
+              <p class="text-color">
                 Please like and folow Us on our social network for more updates
                 and promos
               </p>
@@ -288,7 +291,7 @@
   <!-- Required for smooth scroll start -->
   <script src="assets/vendor/wow/wow.min.js"></script>
   <script src="assets/vendor/superfish/superfish.min.js"></script>
-  <!--  <script src="lib/wow/wow.min.js"></script>-->
+  <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/lib/venobox/venobox.min.js"></script>
   <script src="assets/lib/owlcarousel/owl.carousel.min.js"></script>
   <!-- font awesome -->
